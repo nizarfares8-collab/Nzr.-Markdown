@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Inner subtle border -->
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="4" />
+
+  <!-- Centered Content -->
+  <g filter="url(#shadow)">
+    <!-- Document shape outline -->
+    <rect x="88" y="88" width="336" height="336" rx="24" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Markdown 'M' symbol on left -->
+    <path d="M 136 320 L 136 192 L 176 248 L 216 192 L 216 320" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Arrow down (classic markdown mark) -->
+    <path d="M 252 248 L 276 276 L 300 248" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="276" y1="200" x2="276" y2="272" stroke="#ffffff" stroke-width="14" stroke-linecap="round" />
+
+    <!-- Code bracket / HTML symbol </> on right -->
+    <path d="M 340 220 L 320 256 L 340 292" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 376 220 L 396 256 L 376 292" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="364" y1="214" x2="352" y2="298" stroke="#a5b4fc" stroke-width="10" stroke-linecap="round" />
+  </g>
+</svg>

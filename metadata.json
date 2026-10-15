@@ -1,0 +1,8 @@
+{
+  "name": "Markdown to HTML Converter",
+  "description": "Real-time Markdown editor with live preview, automatic Arabic RTL alignment, and export to Word (.docx), OpenDocument (.odt), and HTML.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
